@@ -1,6 +1,4 @@
-" Michael's standard settings
-" Author: Michael Geddes
-" Version: 0.1
+" Based on Michael Geddes standard settings
 
 " Pressing Ctrl-N twice in normal mode, Vim toggles between
 " showing and hiding line numbers.
