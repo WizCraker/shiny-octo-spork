@@ -165,3 +165,6 @@ set printoptions=syntax:y,wrap:y
 
 " Switch on syntax highlighting.
 syntax on
+
+" Set background
+set background=dark
