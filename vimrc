@@ -54,8 +54,8 @@ set ruler
 set viminfo='20,\"50
 "set path=.,d:\wave,d:\wave\include,d:\wave\fdt
 set textwidth=80        " always limit the width of text to 80
-set backup              " keep a backup file
-set backupext=.bak
+"set backup              " keep a backup file
+"set backupext=.bak
 " Like having history
 set history=100
 
