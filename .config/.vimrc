@@ -1,6 +1,7 @@
 " Pressing Ctrl-N twice in normal mode, Vim toggles between
 " showing and hiding line numbers.
-nmap <C-N><C-N> :set invnumber<CR>
+nmap <C-N><C-N> :set invnumber invrelativenumber<CR>
+set scrolloff=8
 
 " Set Make to compile correctly in Vi
 set makeprg=make\ %:r.o
@@ -40,16 +41,17 @@ set ruler
 set viminfo='20,\"50
 
 " Always limit the width of text to 80 chars
-set textwidth=80
+"set textwidth=80
 
-" Keep a history 
+" Keep a history
 set history=100
 
 " Toggle paste/nopaste
 map zp :set paste! paste?<CR>
 
-" Switch off search pattern highlighting.
+" Switch off search pattern highlighting
 set nohlsearch
+set incsearch
 
 " Switch on syntax highlighting.
 syntax on
@@ -63,6 +65,13 @@ if exists('+termguicolors')
   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
   set termguicolors
 endif
+
+set updatetime=50
+
+" Disable Q Ex mode
+nnoremap Q <Nop>
+" Disable macro
+nnoremap q <Nop>
 
 " Themes
 " Dracula Theme
