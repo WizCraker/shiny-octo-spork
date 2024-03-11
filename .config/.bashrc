@@ -20,7 +20,7 @@ alias mv='mv -i'
 alias vi='vim'
 
 # Use exa in place of ls to make the listing
-# color coded with icons (use nerd fonts in your termin)
+# color coded with icons (use nerd fonts in your terminal)
 alias ls='exa --color=always --group-directories-first --icons' # preferred listing
 alias la='exa -a --color=always --group-directories-first --icons'  # all files and dirs
 alias ll='exa -l --color=always --group-directories-first --icons'  # long format
