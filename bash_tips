@@ -1,0 +1,4 @@
+# Delete multiple lines from history from oldest to newest. 
+# for i in {num..num}; do history -d num; done
+# Example delete lines 384 through 391.
+for i in {384..391}; do history -d 384; done
